@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <pageHeader></pageHeader>
+
+    <funBar></funBar>
+    <aSide></aSide>
+    <pageMain></pageMain>
   </div>
 </template>
 
@@ -30,3 +30,31 @@
   color: #42b983;
 }
 </style>
+
+
+<script>
+import aSide from "./views/bigCom/aSide/index";
+import funBar from "./views/bigCom/funBar/index";
+import pageHeader from "./views/bigCom/header/index";
+import pageMain from "./views/bigCom/main/index";
+export default {
+
+  name: 'VueElementApp',
+  components: { aSide, funBar, pageHeader, pageMain },
+
+
+  data() {
+    return {
+
+    };
+  },
+
+  mounted() {
+
+  },
+
+  methods: {
+
+  },
+};
+</script>
