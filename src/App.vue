@@ -33,7 +33,13 @@
 #pageHeader {
   width: 100%;
   height: 300px;
-  background-color: rgb(255, 0, 0);
+  background: rgb(34, 34, 59);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 34, 59, 1) 0%,
+    rgba(74, 78, 105, 1) 51%,
+    rgba(154, 140, 152, 1) 100%
+  );
 }
 #funBar {
   width: 60%;
