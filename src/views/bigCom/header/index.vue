@@ -1,6 +1,7 @@
 <template>
   <div class="bigbox">
-    <div class="textBox"><h1 class="webName">LioShounet个人博客</h1></div>
+    <div class="textBox"><h1 class="webName">LioShounet代码碎片</h1></div>
+    <h4 style="color: #f2e9e4">你所走过的每一步都将成为属于你自己的辉煌</h4>
     <el-button type="primary" class="github">github</el-button>
     <el-button style="background-color: #fff; border: 1px solid #b29da0"
       >gitee</el-button

@@ -40,13 +40,16 @@
     rgba(74, 78, 105, 1) 51%,
     rgba(154, 140, 152, 1) 100%
   );
+  margin-bottom: 5px;
 }
 #funBar {
   width: 60%;
   position: relative;
   margin-left: 20%;
+  border-radius: 30px;
   height: 75px;
-  background-color: rgb(72, 255, 0);
+  background-color: #9a8c98;
+  margin-bottom: 5px;
 }
 
 .funBox {
@@ -66,7 +69,7 @@
     left: 20%;
     position: absolute;
     height: 200px;
-    background-color: rgb(0, 4, 255);
+    background-color: #4a4e69;
     margin-right: 0;
   }
 }
