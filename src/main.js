@@ -15,7 +15,7 @@ Vue.config.productionTip = false
 
 const store = new Vuex.Store({
   state: {
-    tianhao: "444"
+    tianhao: "其他内容"
   },
 
 })
