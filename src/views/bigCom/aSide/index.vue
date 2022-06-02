@@ -3,8 +3,6 @@
     <el-menu
       default-active="2"
       class="el-menu-vertical-demo"
-      @open="handleOpen"
-      @close="handleClose"
       background-color="#4a4e69"
       text-color="#fff"
       active-text-color="#feac0a"
